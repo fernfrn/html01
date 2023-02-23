@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,4 +90,97 @@
 
     </form>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submission.html" method="POST">
+        <h1>
+            Travel reservation form
+        </h1>
+        <h2>*denotes mandotory</h2>
+        
+        <section class="name">
+            <label for="fullName">Full name*</label>
+    			<input type="text" name="fullName" id="fullName" placeholder="FirstName Surname" required>           
+        </section>
+
+        <br/>
+
+        <section class="email">
+            <label for="email">Email address*</label>
+            <input type="email" name="email" id="email" required>
+        </section>
+
+        <br/>
+
+        <section class="package-selection">
+            <label for="package">Select Tour Package*</label>
+            <select name="package" id="package" required>
+              <option value="goa">Goa</option>
+              <option value="toa">Toa</option>
+              <option value="Doa">Doa</option>
+            </select>
+        </section>
+
+        <br/>
+
+        <section class="date">
+            <label for="date">Arrival date*</label>
+            <input type="date" name="date" id="date" required>
+        </section>
+
+        <br/>
+
+        <section class="numberPerson">
+            <label for="numberPerson">Number of persons*</label>
+    			<input type="number" name="numberPerson" id="numberPerson" required>
+        </section>
+
+        <br/>
+
+        <section class="radio">
+            <span>What would you want to avail?*</span>
+        
+        <br/>
+        <input type="checkbox" name="purpose" id="boarding" value="boarding" required>
+          <label for="boarding">Boarding</label>
+          <input type="checkbox" name="purpose" id="fooding" value="fooding">
+          <label for="fooding">Fooding</label>
+          <input type="checkbox" name="purpose" id="sightseeing" value="sightseeing">
+          <label for="sightseeing">Sight seeing</label>
+        </section>
+
+        <br/>
+
+        <section class="discount">
+            <label for="discount">Discount Coupon code:</label>
+    			<input type="text" name="discount" id="discount" placeholder="Discount Coupon Code">
+        </section>
+
+        <br/>
+        
+        <section class="radio2">
+            <span>Term and conditions*</span>
+        <br/>
+        <input type="radio" name="term" id="agree" value="agree" required>
+          <label for="agree">I agree</label>
+          <input type="radio" name="term" id="disagree" value="disagree">
+          <label for="disagree">I disagree</label>
+        </section>
+
+        <br/>
+
+        <section class="submission">
+            <input type="summit"                                                         >
+
+    </form>
+</body>
+>>>>>>> d3b6ffe0c087d5ee6155143c84538a764b7bc6a4
 </html>
